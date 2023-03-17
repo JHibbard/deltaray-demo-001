@@ -1,0 +1,18 @@
+name: deltaray-demo-001
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - altair==4.2.2
+  - jupyterlab
+  - grpcio=1.43.0
+  - scikit-learn==1.2.2
+  - xgboost
+  - pip
+  - pip:
+      - deltaray==0.2.0
+      - delta-sharing
+      - ray[tune]
+      - tune-sklearn
+      - tqdm
+      - ipywidgets
